@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import React from 'react';
 
 export default function Page({ children, cool }) {
   return (
@@ -13,5 +12,5 @@ export default function Page({ children, cool }) {
 
 Page.propTypes = {
   cool: PropTypes.string,
-  children: PropTypes.arrayOf(PropTypes.node),
+  children: PropTypes.any,
 };

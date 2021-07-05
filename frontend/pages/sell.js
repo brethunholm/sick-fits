@@ -1,5 +1,5 @@
-import React from 'react';
+import Page from '../components/Page';
 
 export default function SellPage() {
-  return <p>hello</p>;
+  return <p>hello i am the sell page</p>;
 }
